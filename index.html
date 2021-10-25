@@ -4,9 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./global.css">
     <title>Document</title>
 </head>
-<body>
-    <h1>ola mundo </h1>
+<body >
+   <div class="container-fluid bg-primary ">
+       <div class="row ">
+           <div>
+               <h1 class="left t-big ligth">Pesquise seu Cep <br> Agora mesmo </h1>
+               <img src="./assents/undraw_Delivery_address_re_cjca.svg" class="img-fluid" alt="">
+           </div>
+           <div>
+               <div class="box left-big top " >
+                   <div class="row align pt-smal">
+                       <div class="pl-smal "  >
+                           <span  class="ligth bold title "  >CEP:</span>
+                       </div>
+                       <div>
+                           <input id="cep" type="number"   placeholder="digite seu CEP">
+                       </div>
+                   </div>
+
+                   <br>
+                   <br>
+                   <h1 id="load"  class="ligth" ></h1>
+                   <br>
+
+                   <div class="row align pt-smal">
+                    <div class="pl-smal "  >
+                        <span class="ligth bold title-smal "  >Rua:</span>
+                    </div>
+                    <div class="left-smal" >
+                        <input id="rua" type="text"   placeholder="digite sua rua">
+                    </div>
+                </div>
+
+
+                <div class="row align pt-smal">
+                    <div class="pl-smal "  >
+                        <span class="ligth bold title-smal "  >Bairro:</span>
+                    </div>
+                    <div class="  " >
+                        <input id="bairro" type="text"   placeholder="digite seu bairro">
+                    </div>
+                </div>
+
+
+                <div class="row align pt-smal">
+                    <div class="pl-smal "  >
+                        <span class="ligth bold title-smal "  >Cidade:</span>
+                    </div>
+                    <div>
+                        <input id="cidade" type="text"   placeholder="digite sua Cidade">
+                    </div>
+
+
+                    <div class="row  pt-smal mr-smal">
+                         <div class="pl-smal  top-smal"  >
+                             <span class="ligth bold title-smal "  >Uf:</span>
+                         </div>
+                         <div class="mb-smal" >
+                             <input id="uf" type="text"     placeholder="SP">
+                         </div>
+                     </div>
+                </div>
+                   <br>
+                   <br>
+                   <br>
+                   <button class="btn  bg-secondary mb-smal " ><span class="ligth bold title-smal " >enviar</span></button>
+
+
+
+               </div>
+           </div>
+       </div>
+   </div>
 </body>
+
+<script src="./app.js" ></script>
 </html>
